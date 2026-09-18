@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albums</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 40px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.album-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.album {
+    text-align: center;
+    width: 180px;
+}
+.album img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.album p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+    </style>
 </head>
 <body>
-    
+     <h1>Albums</h1>
+    <div class="album-grid">
+        <div class="album">
+            <img src="images.jpeg" alt="Project X">
+            <p>Project X</p>
+        </div>
+        <div class="album">
+            <img src="images.png" alt="X">
+            <p>X</p>
+        </div>
+        <div class="album">
+            <img src="images-3.jpeg" alt="A GREAT CHAOS">
+            <p>A GREAT CHAOS</p>
+        </div>
+        <div class="album">
+            <img src="images-4.jpeg" alt="MORE CHAOS">
+            <p>MORE CHAOS</p>
+        </div>
+        <div class="album">
+            <img src="images-5.jpeg" alt="XPERIMENT">
+            <p>XPERIMENT</p>
+        </div>
+    </div>
 </body>
 </html>
