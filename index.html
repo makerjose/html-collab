@@ -1,35 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <style>
+        body {
+            font-family: sans-serif; 
+            margin: 0;                
+            padding: 16px;   
+            /* text-align: center;   */
+            justify-content: center;   
+            align-items: center;   
+        }
+        nav ul {
+            display: flex;         
+            list-style: none;      
+            margin: 0;        
+            padding: 0;
+            gap: 20px;             
+        }
+
+        nav a {
+        text-decoration: none; 
+        color: gray;           
+        font-family: sans-serif;
+        }
+
+        nav a:hover {
+        color: black;        
+        }
+
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KEN CARSON</title>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./about.html">About</a>
-                </li>
-                <li>
-                    <a href="./albums.html">Albums</a>
-                </li>
-                <li>
-                    <a href="./events.html">Events</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./albums.html">Albums</a>
+          </li>
+          <li>
+            <a href="./events.html">Events</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>KEN CARSON</h1>
-            <img src="./ken.jpg" alt="Ken Carson" width="300">
-            <p>Ken Carson is a professional rapper and songwriter.</p>
-        </section>
+      <section>
+        <h1>KEN CARSON</h1>
+        <h2>Welcome to Ken Carson's Official Website</h2>
+        <img src="ken.jpg" alt="Ken Carson" width="600" />
+        <p>Discover the latest news, albums, and events from Ken Carson.</p>
+        <button type="button"> <a href="./about.html">More About Ken</a> </button>
+      </section>
     </main>
-</body>
+  </body>
 </html>
